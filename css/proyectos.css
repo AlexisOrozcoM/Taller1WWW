@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+
+body {
+    width: 80%;
+    background: url(../img/bubbles.png), url(../img/fondo3.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-attachment: fixed, fixed;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.logo {
+
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/logo1.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+
+}
+
+.logo:hover {
+    
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/logo2.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+
+
+header h1 {
+    margin: 0;
+    font-family: 'Baumans', cursive;
+    font-size: 220%;
+  }
+
+
+  header p {
+    font-family: 'Baumans', cursive;
+    font-size: 140%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+.nav {
+
+    margin-top: 10px;
+
+}
+
+
+.nav ul {
+
+    margin: 0;
+    padding: 50px 0 0px 120px;
+
+}
+
+
+.nav-info a {
+
+    background-image: url(../img/tribus3.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px 3px;
+}
+
+
+.nav-info a:hover {
+
+    background-image: url(../img/tribus2.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px 3px;
+}
+
+
+.nav-proy a {
+
+    background-image: url(../img/tribus3.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -96px;
+}
+
+
+.nav-proy a:hover {
+
+    background-image: url(../img/tribus2.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -96px;
+}
+
+
+.nav-likes a {
+
+    background-image: url(../img/tribus3.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -46px;
+}
+
+
+.nav-likes a:hover {
+
+    background-image: url(../img/tribus2.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -46px;
+}
+
+.nav-opin a {
+
+    background-image: url(../img/tribus3.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -146px;
+}
+
+.nav-opin a:hover {
+
+    background-image: url(../img/tribus2.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -146px;
+}
+
+
+
+.nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px 10px 40px;
+    border: 3px solid #e5e9dc;
+
+
+}
+
+
+.nav a:hover {
+    font-family: Geneva;
+    font-style: italic;
+    color: white;
+}
+
+/* +++++++++++++++++++++++ */
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border: 5px solid rgb(116, 115, 115);
+  }
+  
+th, td {
+    padding: 20px;
+  }
+
+table tr{
+    border: 3px solid rgb(116, 115, 115);
+}
+
+table caption{
+
+    margin: 50px 0px 15px 0px;
+    font-family: 'Bungee Inline', cursive;
+}
+
+
+thead th, tfoot th, tbody th {
+
+    font-family: 'Righteous', cursive;
+}
+
+tbody td{
+
+    text-align: center;
+    font-family: 'Kalam', cursive;
+
+}
+
+
+thead, tfoot{
+
+    background-image: url(../img/fondo4.jpg);
+    background-size: 1250px 80px;
+}
+
+
+
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Ranchers', cursive;
+  }

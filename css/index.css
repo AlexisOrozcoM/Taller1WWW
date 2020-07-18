@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+
+body {
+    width: 80%;
+    background: url(../img/bubbles.png), url(../img/fondo3.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-attachment: fixed, fixed;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.logo {
+
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/logo1.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+
+}
+
+.logo:hover {
+    
+    width: 250px;
+    height: 250px;
+    background-image: url(../img/logo2.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+
+.nav {
+
+    margin-top: 10px;
+    
+
+}
+
+
+.nav ul {
+
+    margin: 0;
+    padding: 50px 0 0px 120px;
+
+}
+
+
+.nav-info a {
+
+    background-image: url(../img/tribus3.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px 3px;
+}
+
+
+.nav-info a:hover {
+
+    background-image: url(../img/tribus2.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px 3px;
+}
+
+
+.nav-proy a {
+
+    background-image: url(../img/tribus3.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -96px;
+}
+
+
+.nav-proy a:hover {
+
+    background-image: url(../img/tribus2.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -96px;
+}
+
+
+.nav-likes a {
+
+    background-image: url(../img/tribus3.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -46px;
+}
+
+
+.nav-likes a:hover {
+
+    background-image: url(../img/tribus2.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -46px;
+}
+
+.nav-opin a {
+
+    background-image: url(../img/tribus3.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -146px;
+}
+
+.nav-opin a:hover {
+
+    background-image: url(../img/tribus2.png);
+    background-size: 80px 180px;
+    background-repeat: no-repeat;
+    background-position: -45px -146px;
+}
+
+
+
+.nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px 10px 40px;
+    border: 3px solid #e5e9dc;
+
+
+}
+
+
+.nav a:hover {
+    font-family: Geneva;
+    font-style: italic;
+    color: white;
+}
+
+/* +++++++++++++++++++++++ */
+
+
+
+h1, h2, h3, p{
+
+    margin-top: 0;
+}
+
+
+header h1 {
+    margin: 0;
+    font-family: 'Baumans', cursive;
+    font-size: 220%;
+  }
+
+
+  header p {
+    font-family: 'Baumans', cursive;
+    font-size: 140%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+.area-principal{
+
+    font-size: 165%;
+    font-weight: normal;
+}
+
+
+.area-principal h2{
+
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-size: 200%;
+    
+    font-family: "Merienda One", cursive;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-shadow: 2px 10px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+
+.contenedor{
+
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.caja1{
+
+    background-color: #f1ab29;
+    border: 5px solid #c08b28;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+    font-family: 'Ranchers', cursive;
+}
+
+.caja2{
+
+    background-color: #4949b9;
+    border: 5px solid #20205b;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+}
+
+.caja3{
+
+    background-color: #3688c9;
+    border: 5px solid #1e4e74;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+    text-align: right;
+    font-family: 'Ranchers', cursive;
+}
+
+
+.caja4{
+
+    background-color: #c24475;
+    border: 5px solid #5e1f37;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+}
+
+.caja5{
+
+    background-color: #3fcf31;
+    border: 5px solid #1c6315;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+    text-align: left;
+    font-family: 'Ranchers', cursive;
+}
+
+
+.caja6{
+
+    background-color: #c43434;
+    border: 5px solid #581313;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Ranchers', cursive;
+}
+
+
+.caja1:hover{
+
+    filter: hue-rotate(180deg);
+}
+
+.caja2:hover{
+
+    filter: hue-rotate(180deg);
+}
+
+.caja3:hover{
+
+    filter: hue-rotate(180deg);
+}
+
+.caja4:hover{
+
+    filter: hue-rotate(180deg);
+}
+
+.caja5:hover{
+
+    filter: hue-rotate(180deg);
+}
+
+.caja6:hover{
+
+    filter: hue-rotate(180deg);
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Ranchers', cursive;
+  }
